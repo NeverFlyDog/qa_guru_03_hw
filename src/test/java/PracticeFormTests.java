@@ -18,6 +18,9 @@ public class PracticeFormTests {
     void fillPracticeFormTest() {
         open("/automation-practice-form");
 
+        executeJavaScript("$('#fixedban').remove()");
+        executeJavaScript("$('footer').remove()");
+
         var firstName = "John";
         var lastName = "Doe";
         var email = "john.doe@example.com";
