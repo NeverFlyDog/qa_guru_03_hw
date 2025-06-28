@@ -15,7 +15,7 @@ public class PracticeFormTests {
     }
 
     @Test
-    void fillPracticeForm() {
+    void fillPracticeFormTest() {
         open("/automation-practice-form");
 
         var firstName = "John";
